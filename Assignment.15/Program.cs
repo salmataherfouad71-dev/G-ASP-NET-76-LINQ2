@@ -96,6 +96,11 @@ namespace Assignment._15
             //int[] setB = { 3, 6, 9, 12, 15, 13 };
             //PrintList(setA.Except(setB));
             #endregion
+            #region Question14
+            //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //string[] list2 = { "france", "SPAIN", "Italy" };
+            //PrintList(list1.Except(list2, StringComparer.OrdinalIgnoreCase));
+            #endregion 
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
