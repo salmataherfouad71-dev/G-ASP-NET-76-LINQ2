@@ -33,6 +33,10 @@ namespace Assignment._15
             #region Question11*
             //PrintList(ProductList.Select((p,i)=>$"{i+1}-{p.ProductName}"));
             #endregion
+            #region Question12*
+            //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //PrintList(Arr.OrderBy(w=>w.Length).ThenBy(w=>w,StringComparer.OrdinalIgnoreCase));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
