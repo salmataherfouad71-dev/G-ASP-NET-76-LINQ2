@@ -117,6 +117,10 @@ namespace Assignment._15
             //string multiplicationTable =numbers.Aggregate("",(prev, n) => $"{prev}{n} X 7 = {n*7}\n");
             //Console.WriteLine(multiplicationTable);
             #endregion
+            #region Question19
+            //var evenNumbers = Enumerable.Range(1, 30).Where(n=>n%2==0);
+            //PrintList(evenNumbers);
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
