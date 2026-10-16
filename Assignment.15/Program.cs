@@ -69,6 +69,18 @@ namespace Assignment._15
             //                     .Where(g=>g.Count()>3)
             //                     .Select(g=>new { Category =g.Key,Count=g.Count()}));
             #endregion
+            #region Question09
+            //PrintList( from customer in CustomerList
+            //           group customer by customer.Country
+            //           into g
+            //           select new 
+            //           {
+            //                Country =g.Key,
+            //                Count=g.Count(), 
+            //                TotalOrderValue = g.Sum(c=>c.Orders.Sum(o=>o.Total))
+            //           }
+            //         );
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
