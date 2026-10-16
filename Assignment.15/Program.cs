@@ -7,7 +7,19 @@ namespace Assignment._15
     {
         static void Main(string[] args)
         {
-            
+            /*There is some questions it didn't answer it in the previous assignment because,
+             we hadn’t taken it yet.So in this assignment I am goning to answer it. 
+             I marked it with (*)*/
+            #region Question08*
+            PrintList(ProductList.OrderBy(p=>p.Category).ThenByDescending(p=>p.UnitPrice));
+            #endregion
+        }
+        static void PrintList<T>(IEnumerable<T> list)
+        {
+            foreach (T item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
