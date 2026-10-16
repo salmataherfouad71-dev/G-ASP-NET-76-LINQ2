@@ -112,6 +112,11 @@ namespace Assignment._15
             #region Question17
             //Console.WriteLine(ProductList.FirstOrDefault(p => p.UnitPrice > 500));
             #endregion
+            #region Question18
+            //var numbers = Enumerable.Range(1,12);
+            //string multiplicationTable =numbers.Aggregate("",(prev, n) => $"{prev}{n} X 7 = {n*7}\n");
+            //Console.WriteLine(multiplicationTable);
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
