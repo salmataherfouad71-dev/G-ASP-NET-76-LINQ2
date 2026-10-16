@@ -52,6 +52,10 @@ namespace Assignment._15
             #region Question04
             //Console.WriteLine(ProductList.Where(p=>p.Category== "Seafood").All(p=>p.UnitsInStock>0));
             #endregion
+            #region Question05
+            //int[] ids = { 3, 9, 13, 18 };
+            //Console.WriteLine(ids.Contains(9));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
