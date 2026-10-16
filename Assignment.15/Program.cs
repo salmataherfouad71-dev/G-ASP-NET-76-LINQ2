@@ -46,6 +46,9 @@ namespace Assignment._15
             #region Question02
             //PrintList(ProductList.Skip((2-1)*5).Take(5));
             #endregion
+            #region Question03
+            //PrintList(ProductList.TakeWhile(p=>p.UnitPrice<25).OrderBy(p=>p.UnitPrice));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
