@@ -125,6 +125,10 @@ namespace Assignment._15
             //PrintList(ProductList.Take(3)
             //                     .Zip(CustomerList, (p, c) => new { ProductName=p.ProductName, CustomerCompanyName=c.CustomerName }));
             #endregion
+            #region Question21
+            //PrintList(ProductList.Take(3)
+            //                     .Zip(CustomerList, (p, c) => $"{p.ProductName}, {c.CustomerName} "));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
