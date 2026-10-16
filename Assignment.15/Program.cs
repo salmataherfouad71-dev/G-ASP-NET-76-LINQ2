@@ -49,6 +49,9 @@ namespace Assignment._15
             #region Question03
             //PrintList(ProductList.TakeWhile(p=>p.UnitPrice<25).OrderBy(p=>p.UnitPrice));
             #endregion
+            #region Question04
+            //Console.WriteLine(ProductList.Where(p=>p.Category== "Seafood").All(p=>p.UnitsInStock>0));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
