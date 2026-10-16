@@ -81,6 +81,9 @@ namespace Assignment._15
             //           }
             //         );
             #endregion
+            #region Question10
+            //Console.WriteLine(ProductList.Sum(p=>p.UnitsInStock));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
