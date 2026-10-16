@@ -60,6 +60,10 @@ namespace Assignment._15
             //PrintList(ProductList.GroupBy(p=>p.Category)
             //                     .Select(g => new { Category=g.Key,Count=g.Count()}));
             #endregion
+            #region Question07
+            //PrintList(ProductList.GroupBy(p => p.Category)
+            //                     .Select(g => new { Category = g.Key}));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
