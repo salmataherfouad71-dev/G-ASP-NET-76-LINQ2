@@ -11,7 +11,12 @@ namespace Assignment._15
              we hadn’t taken it yet.So in this assignment I am goning to answer it. 
              I marked it with (*)*/
             #region Question08*
-            PrintList(ProductList.OrderBy(p=>p.Category).ThenByDescending(p=>p.UnitPrice));
+            //PrintList(ProductList.OrderBy(p=>p.Category).ThenByDescending(p=>p.UnitPrice));
+            #endregion
+            #region Question09*
+            //PrintList(ProductList.Where(p=>p.Category== "Beverages")
+            //                     .OrderByDescending(p => p.UnitsInStock)
+            //                     .Select(p => new { p.ProductName,p.UnitsInStock}));
             #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
