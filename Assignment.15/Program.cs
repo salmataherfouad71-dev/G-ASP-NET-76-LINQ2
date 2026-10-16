@@ -100,7 +100,12 @@ namespace Assignment._15
             //string[] list1 = { "Germany", "France", "UK", "Spain" };
             //string[] list2 = { "france", "SPAIN", "Italy" };
             //PrintList(list1.Except(list2, StringComparer.OrdinalIgnoreCase));
-            #endregion 
+            #endregion
+            #region Question15
+            //var result=ProductList.ToDictionary(p => p.ProductID, p => p);
+            //if(result.TryGetValue(18, out Product p))
+            //    Console.WriteLine(p);
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
