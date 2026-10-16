@@ -18,6 +18,18 @@ namespace Assignment._15
             //                     .OrderByDescending(p => p.UnitsInStock)
             //                     .Select(p => new { p.ProductName,p.UnitsInStock}));
             #endregion
+            #region Question10*
+            //PrintList(
+            //    from customer in CustomerList
+            //    from order in customer.Orders
+            //    where order.OrderDate.Year >= 1997
+            //    select new
+            //    {
+            //        customer.CustomerID,
+            //        order.OrderDate
+            //    }
+            //         );
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
