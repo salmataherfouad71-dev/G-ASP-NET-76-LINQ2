@@ -88,6 +88,9 @@ namespace Assignment._15
             //Console.WriteLine("CHEAPEST:"+ ProductList.OrderBy(p => p.UnitPrice).First());
             //Console.WriteLine("MOST EXPENSIVE:" + ProductList.OrderBy(p => p.UnitPrice).Last());
             #endregion
+            #region Question12
+            //PrintList(ProductList.Select(p=>p.Category).Distinct());
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
