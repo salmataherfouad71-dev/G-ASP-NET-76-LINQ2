@@ -84,6 +84,10 @@ namespace Assignment._15
             #region Question10
             //Console.WriteLine(ProductList.Sum(p=>p.UnitsInStock));
             #endregion
+            #region Question11
+            //Console.WriteLine("CHEAPEST:"+ ProductList.OrderBy(p => p.UnitPrice).First());
+            //Console.WriteLine("MOST EXPENSIVE:" + ProductList.OrderBy(p => p.UnitPrice).Last());
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
