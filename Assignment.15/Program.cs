@@ -106,6 +106,9 @@ namespace Assignment._15
             //if(result.TryGetValue(18, out Product p))
             //    Console.WriteLine(p);
             #endregion
+            #region Question16
+            //Console.WriteLine(ProductList.First(p=>p.UnitPrice>50));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
