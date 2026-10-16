@@ -37,6 +37,9 @@ namespace Assignment._15
             //string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
             //PrintList(Arr.OrderBy(w=>w.Length).ThenBy(w=>w,StringComparer.OrdinalIgnoreCase));
             #endregion
+            #region Question13*
+            //PrintList(Arr.Where(w => char.ToLower(w[1]) =='i').Reverse()); 
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
