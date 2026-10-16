@@ -121,6 +121,10 @@ namespace Assignment._15
             //var evenNumbers = Enumerable.Range(1, 30).Where(n=>n%2==0);
             //PrintList(evenNumbers);
             #endregion
+            #region Question20
+            //PrintList(ProductList.Take(3)
+            //                     .Zip(CustomerList, (p, c) => new { ProductName=p.ProductName, CustomerCompanyName=c.CustomerName }));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
