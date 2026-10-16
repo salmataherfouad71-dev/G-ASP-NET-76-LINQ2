@@ -30,6 +30,9 @@ namespace Assignment._15
             //    }
             //         );
             #endregion
+            #region Question11*
+            //PrintList(ProductList.Select((p,i)=>$"{i+1}-{p.ProductName}"));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
