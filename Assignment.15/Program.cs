@@ -109,6 +109,9 @@ namespace Assignment._15
             #region Question16
             //Console.WriteLine(ProductList.First(p=>p.UnitPrice>50));
             #endregion
+            #region Question17
+            //Console.WriteLine(ProductList.FirstOrDefault(p => p.UnitPrice > 500));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
