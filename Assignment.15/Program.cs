@@ -40,6 +40,9 @@ namespace Assignment._15
             #region Question13*
             //PrintList(Arr.Where(w => char.ToLower(w[1]) =='i').Reverse()); 
             #endregion
+            #region Question01
+            //PrintList(ProductList.OrderByDescending(p=>p.UnitPrice).Take(3));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
