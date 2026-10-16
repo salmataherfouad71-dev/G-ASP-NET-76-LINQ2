@@ -91,6 +91,11 @@ namespace Assignment._15
             #region Question12
             //PrintList(ProductList.Select(p=>p.Category).Distinct());
             #endregion
+            #region Question13
+            //int[] setA = { 1, 3, 5, 7, 9, 11, 13 };
+            //int[] setB = { 3, 6, 9, 12, 15, 13 };
+            //PrintList(setA.Except(setB));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
