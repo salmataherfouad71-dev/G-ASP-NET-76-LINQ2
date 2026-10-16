@@ -56,6 +56,10 @@ namespace Assignment._15
             //int[] ids = { 3, 9, 13, 18 };
             //Console.WriteLine(ids.Contains(9));
             #endregion
+            #region Question06
+            //PrintList(ProductList.GroupBy(p=>p.Category)
+            //                     .Select(g => new { Category=g.Key,Count=g.Count()}));
+            #endregion
         }
         static void PrintList<T>(IEnumerable<T> list)
         {
